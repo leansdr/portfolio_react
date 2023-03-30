@@ -1,3 +1,7 @@
+#about-container {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+}
 #about-container #title {
   font-size: 42px;
   margin-bottom: 15px;
