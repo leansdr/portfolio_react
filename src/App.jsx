@@ -1,11 +1,11 @@
 import Sidebar from "./components/Sidebar/Sidebar";
 import MainContent from "./components/MainContent/MainContent";
-import "./App.css";
+import "./styles/components/App.sass";
 
 function App() {
   return (
     <div className="App">
-      <Sidebar />
+      <Sidebar/>
       <MainContent />
     </div>
   );

@@ -1,5 +1,5 @@
 import { BsShare } from "react-icons/bs";
-import "./Botao.css";
+import "../../styles/components/Botao/Botao.sass";
 
 const Botao = (props) => {
   return (

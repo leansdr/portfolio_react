@@ -1,5 +1,5 @@
 import Botao from "../Botao/Botao";
-import "./About.css";
+import "../../styles/components/About/About.sass";
 
 const About = () => {
   return (

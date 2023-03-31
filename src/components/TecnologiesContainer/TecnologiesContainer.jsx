@@ -10,7 +10,7 @@ import {
 
 import { TbSql } from "react-icons/tb";
 
-import "./tecnologiesContainer.css";
+import "../../styles/components/TecnologiesContainer/tecnologiesContainer.sass";
 
 const technologies = [
   {

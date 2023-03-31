@@ -1,7 +1,7 @@
-import Avatar from "../../../public/img/foto.jpg";
+import Avatar from "../../img/foto.jpg";
 import SocialNetwork from "../SocialNetwork/SocialNetwork";
 import { AiOutlineMail } from "react-icons/ai";
-import "./Sidebar.css";
+import "../../styles/components/Sidebar/Sidebar.sass";
 
 const Sidebar = () => {
   return (
