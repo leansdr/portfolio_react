@@ -1,14 +1,5 @@
 import Botao from "../Botao/Botao";
-
-import {
-  DiHtml5,
-  DiCss3Full,
-  DiJsBadge,
-  DiMsqlServer,
-  DiGit,
-  DiReact,
-  DiSass,
-} from "react-icons/di";
+import "../../styles/components/ProjetosCards/ProjetosCards.sass";
 
 const ProjetosCards = (props) => {
   return (
@@ -18,8 +9,14 @@ const ProjetosCards = (props) => {
         <p className="card-text">{props.text}</p>
       </div>
       <div className="card-footer">
-        <Botao title="Ver Projeto" />
-        <DiHtml5/>
+        <Botao
+          title="Ver Projeto"
+        />
+        <div className="card-footer-tech">
+          {props.tech1}
+          {props.tech2}
+          {props.tech3}
+        </div>
       </div>
     </div>
   );
